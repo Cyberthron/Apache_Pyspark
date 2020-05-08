@@ -23,7 +23,7 @@
 </p>
 
 
-## Features of Apache Spark**
+## Features of Apache Spark
 
 * Speed:
 
