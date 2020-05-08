@@ -2,6 +2,36 @@
 
 <p>Apache Spark is an open-source cluster-computing framework, built around speed, ease of use, and streaming analytics whereas Python is a general-purpose, high-level programming language. It provides a wide range of libraries and is majorly used for Machine Learning and Real-Time Streaming Analytics.</p>
 
+## Difference Between PySpark and Spark
+
+<div class="su-table su-table-responsive su-table-alternate">
+<table class="table table-bordered">
+<tbody>
+<tr>
+<td width="312"><strong>PySpark </strong></td>
+<td width="312"><strong>Spark</strong></td>
+</tr>
+<tr>
+<td width="312">A tool to support Python with Spark</td>
+<td width="312">A data computational framework that handles Big data</td>
+</tr>
+<tr>
+<td width="312">Supported by a library called Py4j, which is written in Python</td>
+<td width="312">Written in Scala. Apache Core is the main component.</td>
+</tr>
+<tr>
+<td width="312">Developed to support Python in Spark</td>
+<td width="312">Works well with other languages such as Java, Python, R.</td>
+</tr>
+<tr>
+<td width="312">Pre-requisites are Programming knowledge in Python. Understanding of Big data and Spark</td>
+<td width="312">Pre-requisites are programming knowledge in Scala and database</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
 **Why use Python rather then Scala Or Java**
 
 * Python is very easy to learn and implement.
