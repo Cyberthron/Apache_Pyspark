@@ -10,6 +10,18 @@
 * It provides various options for data visualization, which is difficult using Scala or Java.
 * Python comes with a wide range of libraries like numpy, pandas, scikit-learn, seaborn, matplotlib etc.
 * It is backed up by a huge and active community.
+## Spark Ecosystem
+
+
+<p align=center>
+
+
+  <img  src='./Images/Spark.jpg'  alt='Spark Ecosystem'/>
+
+
+
+</p>
+
 
 **Features of Apache Spark**
 
