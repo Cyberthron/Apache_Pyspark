@@ -33,3 +33,15 @@ titanic_df.select("PassengerId","Survived","Pclass","Name","Age","Sex").filter("
 #Pclass 3 Children who survived
 
 titanic_df.select("PassengerId","Survived","Pclass","Name","Age","Sex").filter("Age>1 and Age<18 and Pclass=3 and Survived=1").show()
+
+#Order by Passenger Name
+
+titanic_df.orderBy(titanic_df.Name).show()
+
+#Create a temporary table
+
+titanic_df.createOrReplaceTempView('titanic')
+
+#Select the table using sql command
+
+sqlContext.sql('select * from titanic').show()
