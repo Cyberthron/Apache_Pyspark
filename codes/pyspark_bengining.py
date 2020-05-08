@@ -45,3 +45,11 @@ titanic_df.createOrReplaceTempView('titanic')
 #Select the table using sql command
 
 sqlContext.sql('select * from titanic').show()
+
+#Name start with "Anderson"
+
+sqlContext.sql('select * from titanic').where(col('Name').like("%Anderson%")).show()
+
+# Direct using SQL command using sqlContext
+
+sqlContext.sql("select * from titanic where Name like '%An%'").show()
