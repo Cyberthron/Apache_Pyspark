@@ -23,7 +23,7 @@
 </p>
 
 
-## Features of Apache Spark
+## Advantages of Apache Spark
 
 * Speed:
 
@@ -44,7 +44,33 @@
  * Polyglot:
  
      Spark provides high-level APIs in Java, Scala, Python, and R. Spark code can be written in any of these four languages. It also provides a shell in Scala and Python.
-      
+
+## Disadvantage of Apache Spark
+
+1. No automatic optimization process:
+
+In the case of Apache Spark, you need to optimize the code manually since it doesn’t have any automatic code optimization process. This will turn into a disadvantage when all the other technologies and platforms are moving towards automation.
+
+2. File Management System:
+
+Apache Spark doesn’t come with its own file management system. It depends on some other platforms like Hadoop or other cloud-based platforms.
+
+3. Fewer Algorithms:
+
+There are fewer algorithms present in the case of Apache Spark Machine Learning Spark MLlib. It lags behind in terms of a number of available algorithms.
+
+4. Small Files Issue:
+
+One more reason to blame Apache Spark is the issue with small files. Developers come across issues of small files when using Apache Spark along with Hadoop. Hadoop Distributed File System (HDFS) provides a limited number of large files instead of a large number of small files.
+
+5. Window Criteria:
+
+Data in Apache Spark divides into small batches of a predefined time interval. So Apache won't support record-based window criteria. Rather, it offers time-based window criteria.
+
+6. Doesn’t suit for a multi-user environment:
+
+Yes, Apache Spark doesn’t fit for a multi-user environment. It is not capable of handling more users concurrency.
+
       
 ## Fundamentals of PySpark
 
