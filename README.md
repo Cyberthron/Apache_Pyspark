@@ -23,27 +23,27 @@
 </p>
 
 
-**Features of Apache Spark**
+## Features of Apache Spark**
 
 * Speed:
 
-      Spark runs up to 100 times faster than Hadoop MapReduce for large-scale data processing. It is also able to achieve this speed through controlled partitioning.
+     Spark runs up to 100 times faster than Hadoop MapReduce for large-scale data processing. It is also able to achieve this speed through controlled partitioning.
       
 * Powerful Caching:
 
-      Simple programming layer provides powerful caching and disk persistence capabilities.
+     Simple programming layer provides powerful caching and disk persistence capabilities.
     
 * Deployment:
 
-      It can be deployed through Mesos, Hadoop via YARN, or Spark’s own cluster manager.
+     It can be deployed through Mesos, Hadoop via YARN, or Spark’s own cluster manager.
       
 * Real-Time:
 
-      It offers Real-time computation & low latency because of in-memory computation.
+     It offers Real-time computation & low latency because of in-memory computation.
       
  * Polyglot:
  
-      Spark provides high-level APIs in Java, Scala, Python, and R. Spark code can be written in any of these four languages. It also provides a shell in Scala and Python.
+     Spark provides high-level APIs in Java, Scala, Python, and R. Spark code can be written in any of these four languages. It also provides a shell in Scala and Python.
       
       
 ## Fundamentals of PySpark
